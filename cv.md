@@ -31,3 +31,12 @@ for (let day = 0; day < 6 - lastDayOfTheMonth; day++) {
 
 ## __Experience__
 - Fitness studio "TSEKH" (assistant manager)
+
+## __Education__ 
+- __University:__ Belarusian National Technical University (engineer-economist in the energy, cost estimate)
+- __Courses:__
+  - [TeachMeSkills](file:///C:/Users/User/Downloads/Telegram%20Desktop/KARYNA%20YATSKEVICH-01.jpg)
+
+## __English__
+- StreamLine Language School English test result: CEFR Level A2.
+- Now I'm learning english with a tutor
