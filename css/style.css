@@ -1,0 +1,332 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family: Montserrat; color: black;font-weight: 500;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body{
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+/*-------container------*/
+._container {
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 64px 15px;
+    box-sizing: content-box;
+}
+.header__container {
+}
+.main__container {
+}
+/*-------container------*/
+
+/*-------header------*/
+header{
+    width: 35%;
+    background: #3C3C3C;
+    
+}
+.header__information{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.header__photo img{
+    width: 196px;
+    height: 226px;
+}
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contact__block-main{
+    padding: 0px 0px 10px 0px;
+    color: rgb(6, 150, 150);
+}
+.contact__block-other, .contact__block-other a{
+    color: white;
+}
+.contact__block {
+}
+.header__profile {
+}
+.profile {
+}
+.profile-text {
+    padding: 10px 0px 0px 0px;
+    line-height: 144%;
+}
+/*-------header------*/
+
+/*-------main------*/
+main{
+    line-height: 174%;
+}
+.main-category{
+    color: rgb(6, 150, 150);
+}
+h1{
+    color: rgb(6, 150, 150);
+    font-size: 56px;
+    padding: 0px 0px 25px 0px;
+}
+@media (max-width: 1100px){
+    h1{
+        line-height: 144%;
+    }
+}
+small, li, li a{
+    color: #3C3C3C;
+    font-size: 16px;
+}
+li{
+    padding: 20px 0px 0px 0px;
+}
+.main__information{
+    padding: 0px 100px 0px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.main-block__main {
+}
+.main-block__education {
+}
+.main-block__skills {
+}
+.main-block__experience {
+}
+pre{
+    margin: 0px 0px 0px -210px;
+}
+/*-------main------*/
+
+/*-------footer------*/
+footer{
+    background-color: #3c3c3c;
+}
+.footer__container{
+    max-width: 1046px;
+    margin: 0 auto;
+}
+.footer__information{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-year {
+    color: #d0d0d0;
+    padding: 60px 0px 0px 0px;
+
+}
+.footer-github {
+    padding: 60px 0px 0px 0px;
+}
+.footer-rsschool a img{
+    width: 120px;
+    height: 120px;
+}
+/*-------footer------*/
+
+
+h4{
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(6, 150, 150);
+    font-size: 16px;
+}
+p{
+    color: #d0d0d0;
+    font-size: 16px;
+}
+a{
+    color: #d0d0d0;
+    font-size:16px;
+}
+
+hr{
+    background-color: rgb(6, 150, 150);
+    height: 2px;
+    width: 100%;
+}
+
+@media (max-width: 1083px){
+    .footer__container{
+        max-width: 706px;
+    }
+}
+@media (max-width: 813px){
+    hr{
+        width: 80%;
+    }
+    pre{
+        font-size: 12px;
+        padding: 0px 0px 0px 30px;
+    }
+}
+@media (max-width: 740px){
+    h4{
+        font-size: 22px;
+    }
+    li, a, p, .contact__block-main, li a{
+        white-space: normal;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    pre{
+        font-size: 10px;
+        margin: 0px 0px -60px -180px;
+    }
+    .footer__container{
+        max-width: 506px;
+    }
+}
+@media (max-width: 707px){
+    hr{
+        width: 60%;
+    }
+    .profile-text {
+        width: 80%;
+    }
+    .header__photo img{
+        width: 176px;
+        height: 206px;
+    }
+}
+@media (max-width: 630px){
+    pre{
+        font-size: 10px;
+        padding: 0px 0px 0px 8px;
+    }
+}
+@media (max-width: 590px){
+    pre{
+        font-size: 8px;
+        padding: 0px 0px 0px 10px;
+    }
+}
+@media (max-width: 563px){
+    hr{
+        width: 60%;
+    }
+    .profile-text {
+        width: 50%;
+    }
+    .header__photo img{
+        width: 146px;
+        height: 176px;
+    }
+}
+@media (max-width: 530px){
+    h1{
+        font-size: 30px;
+    }
+    small{
+        font-size: 14px;
+    }
+    .main__information{
+        padding: 0px 0px 0px 20px;
+    }
+    pre{
+        font-size: 8px;
+        padding: 0px 0px 0px 30px;
+    }
+    .footer__container{
+        max-width: 306px;
+    }
+    .footer__information{
+        font-size: 12px;
+    }
+    .footer-rsschool a img{
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (max-width: 486px){
+    .contact-gmail{
+        font-size: 9px;
+    }
+    .header__photo img{
+        width: 116px;
+        height: 146px;
+    }
+    .first-hr{
+        width: 30%;
+    }
+}
+@media (max-width: 412px){
+    pre{
+        font-size: 7px;
+        padding: 0px 0px 0px 40px;
+    }
+}
+@media (max-width: 380px){
+    .profile-text {
+        width: 40%;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .contact__block-main{
+        font-size: 10px;
+    }
+    p, a{
+        font-size: 8px;
+    }
+    .contact-gmail{
+        font-size: 8px;
+    }
+}
+@media (max-width: 346px){
+    .contact-gmail{
+        font-size: 7px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    p, a, li, li a{
+        font-size: 10px;
+    }
+    pre{
+        font-size: 5px;
+        padding: 0px 0px 0px 80px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    small{
+        font-size: 12px;
+    }
+    .main__information{
+        padding: 0px 0px 0px 10px;
+        gap: 20px;
+    }
+}
